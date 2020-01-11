@@ -11,9 +11,9 @@ Le journal
 
 electronique    ustensiles      voitures
 
-**conteneur TchiffaMed$** `mkdir` _actualites politiques_
+**conteneur TchiffaMed$** `mkdir -p` _actualites/politiques_
 
-**conteneur TchiffaMed$** `cd` _politiques-
+**conteneur TchiffaMed$** `cd` _actualites/politiques-
 
 **politiques TchiffaMed$**`mkdir` _elections_
 
@@ -24,8 +24,6 @@ electronique    ustensiles      voitures
 **elections TchiffaMed$** `echo` _"Sani Moussa Kadri">>candidats.txt_
 
 **elections TchiffaMed$** `cd` _../.._
-
-**conteneur TchiffaMed$** `cd` _actualites/_
 
 **actualites TchiffaMed$** `mkdir` _buzz_
 

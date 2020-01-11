@@ -14,9 +14,9 @@ Le dessin
 .               .configuration  electronique    ustensiles
 ..              actualites      politiques      voitures
 
-**conteneur TchiffaMed$** `mkdir` _creation crayons_
+**conteneur TchiffaMed$** `mkdir -p` _creation/crayons_
 
-**conteneur TchiffaMed$** `cd` _crayons/_
+**conteneur TchiffaMed$** `cd` _creation/crayons_
 
 **crayons TchiffaMed$** `touch` _couleurs.txt_
 
@@ -24,17 +24,13 @@ Le dessin
 
 **crayons TchiffaMed$** `cd` _.._
 
-**conteneur TchiffaMed$** `cd` __creation_
-
 **creation TchiffaMed$** `touch` _gomme.txt_
 
-**creation TchiffaMed$** `mv` _gomme.txt ~/conteneur/crayons_
+**creation TchiffaMed$** `mv` _gomme.txt ~/conteneurcreation/crayons_
 
 **creation TchiffaMed$** `cd` _~_
 
-**TchiffaMed$** `cd` _conteneur/creation_
-
-**creation TchiffaMed$** `pwd``
+**creation TchiffaMed$** `pwd creation`
 
 /Users/TchiffaMed/conteneur/creation
 
